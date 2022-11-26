@@ -17,7 +17,7 @@ function Head() {
                         <div className="row">
                             <div className="col-md-2 col-6">
                                 <Link to="/">
-                                    <img src="assests/img/DSCI-logo-color.png" alt="logo" className="logo" /></Link>
+                                    <img src={process.env.PUBLIC_URL + "/assests/img/DSCI-logo-color.png"} alt="logo" className="logo" /></Link>
                             </div>
                             <div className="col-md-4 col-4 d-none d-lg-block d-md-block d-xl-block">
                                 <nav className="navbar navbar-expand-md navbar-light bg-trans">

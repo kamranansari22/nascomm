@@ -44,24 +44,24 @@ function Box21() {
                                     <div className="row pr-5">
                                         <div className="col-md-6 col-sm-6 col-6">
                                             <div className="box-21-2 wobble-horizontal">
-                                                <img src="assests/img/Picture2.png" alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/Picture2.png"} alt="" />
                                             </div>
                                         </div>
                                         <div className="col-md-6 col-sm-6 col-6">
                                             <div className="box-21-3 wobble-horizontal">
-                                                <img src="assests/img/Picture4.png" alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/Picture4.png"} alt="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row pr-5">
                                         <div className="col-md-6 col-sm-6 col-6">
                                             <div className="box-21-4 wobble-horizontal">
-                                                <img src="assests/img/Picture3.png" alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/Picture3.png"} alt="" />
                                             </div>
                                         </div>
                                         <div className="col-md-6 col-sm-6 col-6">
                                             <div className="box-21-5 wobble-horizontal">
-                                                <img src="assests/img/Picture1.png" alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/Picture1.png"} alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -110,37 +110,37 @@ function Box21() {
                                             <div className="swiper-wrapper">
                                                 <SwiperSlide>
                                                     <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image-34.png)` }} >
-                                                        <img src="assests/img/image-34.png" alt="" />
+                                                        <img src={process.env.PUBLIC_URL + "/assests/img/image-34.png"} alt="" />
                                                     </div>
 
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image333.png)` }}>
-                                                        <img src="assests/img/image333.png" alt=" " />
+                                                        <img src={process.env.PUBLIC_URL + "/assests/img/image333.png"} alt=" " />
                                                     </div>
 
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image-352.png)` }}>
-                                                        <img src="assests/img/image-352.png" alt=" " />
+                                                        <img src={process.env.PUBLIC_URL + "/assests/img/image-352.png"} alt=" " />
                                                     </div>
 
                                                 </SwiperSlide>
 
                                                 <SwiperSlide>
                                                     {/* <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image-34.png)` }}>*/}
-                                                    <img src="assests/img/image-34.png" alt=" " />
+                                                    <img src={process.env.PUBLIC_URL + "/assests/img/image-34.png"} alt=" " />
 
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image333.png)` }}>
-                                                        <img src="assests/img/image333.png" alt=" " />
+                                                        <img src={process.env.PUBLIC_URL + "/assests/img/image333.png"} alt=" " />
                                                     </div>
 
                                                 </SwiperSlide>
                                                 <SwiperSlide>
                                                     <div className="swiper-slide" style={{ backgroundImage: `url(assests/img/image-352.png)` }}>
-                                                        <img src="assests/img/image-352.png" alt=" " />
+                                                        <img src={process.env.PUBLIC_URL + "/assests/img/image-352.png"} alt=" " />
                                                     </div>
 
                                                 </SwiperSlide>

@@ -17,13 +17,13 @@ function Box20() {
                                 </div>
                                 <div className="col-md-4">
                                     <div className="box-20-2 float-shadow">
-                                        <img src="assests/img/image 13.png" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assests/img/image 13.png"} alt="" />
                                         <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="box-20-2 float-shadow">
-                                        <img src="assests/img/image 13(1).png" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assests/img/image 13(1).png"} alt="" />
                                         <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
                                 </div>
@@ -31,13 +31,13 @@ function Box20() {
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="box-20-2 float-shadow">
-                                        <img src="assests/img/image 13.png" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assests/img/image 13.png"} alt="" />
                                         <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="box-20-2 float-shadow">
-                                        <img src="assests/img/image 13(3).png" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/assests/img/image 13(3).png"} alt="" />
                                         <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     </div>
                                 </div>

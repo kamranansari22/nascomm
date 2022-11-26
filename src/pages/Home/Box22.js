@@ -14,22 +14,22 @@ function Box22() {
                                     <section className="swiper-containerr loading">
                                         <div className="swiper-wrapper">
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image-34.png)` }}>
-                                                <img src="assests/img/image-34.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image-34.png"} alt=" " className="entity-img" />
                                             </div>
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image333.png)` }}>
-                                                <img src="assests/img/image333.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image333.png"} alt=" " className="entity-img" />
                                             </div>
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image-352.png)` }}>
-                                                <img src="assests/img/image-352.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image-352.png"} alt=" " className="entity-img" />
                                             </div>
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image-34.png)` }}>
-                                                <img src="assests/img/image-34.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image-34.png"} alt=" " className="entity-img" />
                                             </div>
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image333.png)` }}>
-                                                <img src="assests/img/image333.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image333.png"} alt=" " className="entity-img" />
                                             </div>
                                             <div className="swiper-slide" style={{ backgroundImage: `url(./img/image-352.png)` }}>
-                                                <img src="assests/img/image-352.png" className="entity-img" />
+                                                <img src={process.env.PUBLIC_URL + "/assests/img/image-352.png"} alt=" " className="entity-img" />
                                             </div>
                                         </div>
 
@@ -39,7 +39,7 @@ function Box22() {
                                         <div className="swiper-button-prev swiper-button-white"></div>
                                         <div className="swiper-button-next swiper-button-white"></div>
                                     </section>
-                                    <a href="#" className="threat wobble-bottom">View All Resource</a>
+                                    <a href=" " className="threat wobble-bottom">View All Resource</a>
                                 </div>
                                 <div className="br-white d-block d-sm-block d-md-none"></div>
                                 <h4>Video Gallery</h4>
@@ -59,18 +59,18 @@ function Box22() {
                                     <p className="video-des">Financial Security Conclave (FINSEC 2022)<span>DSCI IN 1/29</span></p>
                                     <div className="video-thumb">
                                         <div className="actives">
-                                            <img src="assests/img/image 57.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 57.png"} alt=" " />
                                             <div className="namess">
                                                 <p className="name">FINSEC2022 Day1 - Inaugural Session by Rama Vedashree, CEO...</p>
                                                 <p className="description">DSCI IN</p>
                                             </div>
-                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/g-eT1zJOTjA" frameborder="0" allowfullscreen></iframe>
+                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/g-eT1zJOTjA" frameborder="0" allowfullscreen title=" "></iframe>
                                         </div>
                                     </div>
 
                                     <div className="video-thumb">
                                         <div className="actives">
-                                            <img src="assests/img/image 57.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 57.png"} alt=" " />
                                             <div className="namess">
                                                 <p className="name">FINSEC2022 Day1 - Inaugural Session by Rama Vedashree, CEO...</p>
                                                 <p className="description">DSCI IN</p>
@@ -81,22 +81,22 @@ function Box22() {
 
                                     <div className="video-thumb">
                                         <div className="actives">
-                                            <img src="assests/img/image 57.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 57.png"} alt=" " />
                                             <div className="namess">
                                                 <p className="name">FINSEC2022 Day1 - Inaugural Session by Rama Vedashree, CEO...</p>
                                                 <p className="description">DSCI IN</p>
                                             </div>
-                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/qSlj4FypaB8" frameborder="0" allowfullscreen></iframe>
+                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/qSlj4FypaB8" frameborder="0" allowfullscreen title=" "></iframe>
                                         </div>
                                     </div>
                                     <div className="video-thumb">
                                         <div className="actives">
-                                            <img src="assests/img/image 57.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 57.png"} alt=" " />
                                             <div className="namess">
                                                 <p className="name">FINSEC2022 Day1 - Inaugural Session by Rama Vedashree, CEO...</p>
                                                 <p className="description">DSCI IN</p>
                                             </div>
-                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/CWoioHliBYY" frameborder="0" allowfullscreen></iframe>
+                                            <iframe className="iframe" width="640" height="352" src="https://www.youtube.com/embed/CWoioHliBYY" frameborder="0" allowfullscreen title=" "></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ function Box22() {
                                     <h3>Podcast</h3>
                                     <div className="row  mb-4">
                                         <div className="col-md-4 col-sm-4 col-6">
-                                            <img src="assests/img/image 23.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 23.png"} alt=" " />
                                         </div>
                                         <div className="col-md-8 col-sm-8 col-6">
                                             <div className="date">Jun 24, 2022</div>
@@ -116,7 +116,7 @@ function Box22() {
                                     </div>
                                     <div className="row">
                                         <div className="col-md-4 col-sm-4 col-6">
-                                            <img src="assests/img/image 24.png" />
+                                            <img src={process.env.PUBLIC_URL + "/assests/img/image 24.png"} alt=" " />
                                         </div>
                                         <div className="col-md-8 col-sm-8 col-6">
                                             <div className="date">Jun 24, 2022</div>
@@ -125,7 +125,7 @@ function Box22() {
                                     </div>
                                     <div className="row">
                                         <div className="col-md-12">
-                                            <a href="#" className="threat skew">Listen all Podcast</a>
+                                            <a href="/" className="threat skew">Listen all Podcast</a>
                                         </div>
                                     </div>
 

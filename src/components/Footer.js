@@ -12,7 +12,7 @@ function Footer() {
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="footer-1">
-                                    <img src="assests/img/DSCI-logo-color.png" alt="logo" />
+                                    <img src={process.env.PUBLIC_URL + "/assests/img/DSCI-logo-color.png"} alt="logo" />
                                     <p><span>Operational Office</span> – 4th Floor, NASSCOM Campus, Plot No. 7-10, Sector 126, Noida, UP -201303</p>
                                     <div className="social-icon">
                                         <ul>
@@ -154,7 +154,7 @@ function Footer() {
                         </div>
                         <div className="col-12">
                             <div className="footer-1">
-                                <img src="assests/img/DSCI-logo-color.png" alt="logo" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/DSCI-logo-color.png"} alt="logo" />
                                 <p><span>Operational Office</span> – 4th Floor, NASSCOM Campus, Plot No. 7-10, Sector 126, Noida, UP -201303</p>
                                 <div className="social-icon">
                                     <ul>

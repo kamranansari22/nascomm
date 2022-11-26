@@ -19,7 +19,7 @@ const Navbar = () => {
                                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
                                             <span className="navbar-toggler-icon"></span>
                                         </button>
-                                        <a className="navbar-brand" href="/"><img src="assests/img/DSCI-logo-color.png" alt="logo" className="logo" /></a>
+                                        <a className="navbar-brand" href="/"><img src={process.env.PUBLIC_URL + "/assests/img/DSCI-logo-color.png"} alt="logo" className="logo" /></a>
                                         <div className="collapse navbar-collapse" id="navbarSupportedContent22">
                                             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                                                 {menuItems.map((menu, index) => {

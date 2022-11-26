@@ -8,7 +8,7 @@ function Box202() {
                     <div className="container-main">
                         <div className="row ggdd">
                             <div className="col-md-6">
-                                <img src="assests/img/Rectangle-99.png" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/Rectangle-99.png"} alt=" " />
                             </div>
                             <div className="col-md-6 pds-6 justify-content-center">
                                 <h2>Life at DSCI</h2>

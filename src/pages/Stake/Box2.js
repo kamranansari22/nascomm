@@ -14,15 +14,15 @@ function Box2() {
                             <div className="col-md-12">
                                 <h5>Financial Statements</h5>
                                 <div className="stakeholders-box-2-1 hang">
-                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />Statement of Accounts FY 2020-21</div>
+                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />Statement of Accounts FY 2020-21</div>
                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                 </div>
                                 <div className="stakeholders-box-2-1 hang">
-                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />Statement of Accounts FY 2019-20</div>
+                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />Statement of Accounts FY 2019-20</div>
                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                 </div>
                                 <div className="stakeholders-box-2-1 hang">
-                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />Statement of Accounts FY 2018-19</div>
+                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />Statement of Accounts FY 2018-19</div>
                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                 </div>
                             </div>
@@ -44,25 +44,25 @@ function Box2() {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />April 2021 - June 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />April 2021 - June 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />July 2021 - September 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />July 2021 - September 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />October 2021 - December 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />October 2021 - December 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />January 2022 - March 2022</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />January 2022 - March 2022</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
@@ -72,25 +72,25 @@ function Box2() {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />April 2021 - June 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />April 2021 - June 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />July 2021 - September 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />July 2021 - September 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />October 2021 - December 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />October 2021 - December 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />January 2022 - March 2022</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />January 2022 - March 2022</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
@@ -100,25 +100,25 @@ function Box2() {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />April 2021 - June 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />April 2021 - June 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />July 2021 - September 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />July 2021 - September 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />October 2021 - December 2021</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />October 2021 - December 2021</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="stakeholders-box-2-1 hang">
-                                                    <div className="float-start stakeholders-box-2-1-1"><img src="assests/img/pdf 1.png" />January 2022 - March 2022</div>
+                                                    <div className="float-start stakeholders-box-2-1-1"><img src={process.env.PUBLIC_URL + "/assests/img/pdf 1.png"} alt=" " />January 2022 - March 2022</div>
                                                     <div className="float-end stakeholders-box-2-2"><i className="fas fa-arrow-down arrow-download"></i></div>
                                                 </div>
                                             </div>

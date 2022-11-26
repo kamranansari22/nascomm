@@ -1,6 +1,6 @@
 
 import Slider from 'react-slick'
-import Youtube from './Youtube'
+
 
 
 
@@ -20,7 +20,7 @@ function Banner() {
         dots: true,
     }
 
-    const renderArrows = () => {
+    {/* const renderArrows = () => {
         return (
             <div className="slider-arrow">
                 <button
@@ -39,7 +39,7 @@ function Banner() {
                 </button>
             </div>
         );
-    };
+    };*/}
 
     return (
         <>
@@ -54,11 +54,11 @@ function Banner() {
                             <div>
 
 
-                                <img src="assests/img/Group 59.png" alt="banner" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/Group 59.png"} alt="banner" />
                             </div>
                             <div className="banner-content">
 
-                                <img src="assests/img/banner-logo.png" alt="banner_img" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/banner-logo.png"} alt="banner_img" />
                                 <button className="banner-btn">Supported by the office of National Cyber Security Coordinator</button>
                                 <h3>Repository of India’s Cybertech Capabilities</h3>
                                 <p>Discover Start-ups, Companies, R&D Labs, Academia and Individuals Building India’s Cyber Capabilities</p>
@@ -70,7 +70,7 @@ function Banner() {
                             <div>
 
 
-                                <img src="assests/img/Group78.png" alt="banner" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/Group78.png"} alt="banner" />
                             </div>
 
 
@@ -78,14 +78,14 @@ function Banner() {
                         <div>
 
                             <div>
-                                <img src="assests/img/Group449.png" alt="banner" />
+                                <img src={process.env.PUBLIC_URL + "/assests/img/Group449.png"} alt="banner" />
                             </div>
 
 
                         </div>
                     </Slider >
 
-                    {/* {renderArrows()} */}
+
                 </div>
 
             </div>
